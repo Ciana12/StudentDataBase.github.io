@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Prototype</title>
+    <style>
+       body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            text-align: center;
+            margin: 20px;
+        }
+
+        #login-container {
+            width: 300px; 
+            min-width: 200px; 
+            margin: 0 auto; 
+        }
+
+        #login-form {
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            margin: 8px 0;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #4caf50;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+
+        
+        @media only screen and (max-width: 600px) {
+            #login-container {
+                width: 80%; 
+                min-width: 200px; 
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="login-form">
+        <h2>Login</h2>
+        <form id="login-form">
+            <label for="email">Email:</label>
+            <input type="text" id="email" placeholder="Enter your email" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" placeholder="Enter your password" required>
+
+            <button type="button" onclick="login()">Login</button>
+        </form>
+    </div>
+
+    <script>
+        function login() {
+            var email = document.getElementById('email').value;
+            var password = document.getElementById('password').value;
+
+           
+            var hardcodedEmail = 'marinetsoriano@gmail.com';
+            var hardcodedPassword = 'studentdata123';
+
+            if (email === hardcodedEmail && password === hardcodedPassword) {
+                
+                window.location.href = 'studentdata.html';
+            } else {
+                alert('Invalid email or password');
+            }
+        }
+    </script>
+</body>
+</html>

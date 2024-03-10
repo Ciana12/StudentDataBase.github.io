@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Person Details</title>
+    <link rel="stylesheet" href="student.css">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+    <style>
+        .person {
+            cursor: pointer;
+            margin-bottom: 10px;
+            padding: 5px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            display: flex;
+            align-items: center;
+        }
+
+        .person img {
+            max-width: 50px;
+            max-height: 50px;
+            margin-right: 10px;
+            border-radius: 5px;
+        }
+
+        .details {
+            display: none;
+            margin-top: 10px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        table {
+            width: 100%;
+        }
+
+        th,
+        td {
+            padding: 8px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="jhon_liel_fabular person" id="jhon_liel_fabular">
+        <img src="jhon_liel_fabular.jpg" alt="Jhon Liel Fabular">
+        <p> JHON LHIEL T. FABULAR</p>
+    </div>
+    <div class="details" id="details_jhon_liel_fabular">
+        <table>
+            <tr>
+                <th>Attribute</th>
+                <th>Details</th>
+            </tr>
+            <tr>
+                <td>Birthday</td>
+                <td>August 31</td>
+            </tr>
+            <tr>
+                <td>Address</td>
+                <td>Blk 1 Lot 7 San Fermin Tondo Manila</td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td>Male</td>
+            </tr>
+            <tr>
+                <td>Parents</td>
+                <td>JULIE ANN TIPON</td>
+            </tr>
+            <tr>
+                <td>Blood Type</td>
+                <td>N/A</td>
+            </tr>
+            <tr>
+                <td>Favorite Place to go to</td>
+                <td>Cubao</td>
+            </tr>
+            <tr>
+                <td>Most Person Trusted</td>
+                <td>[Not provided]</td>
+            </tr>
+            <tr>
+                <td>Introvert or Extrovert</td>
+                <td>[Not provided]</td>
+            </tr>
+            <tr>
+                <td>FAMILY HISTORY</td>
+                <td>Complete family</td>
+            </tr>
+            <tr>
+                <td>Record of harassment or bullying</td>
+                <td>None</td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="ferdinand_liscano person" id="ferdinand_liscano">
+        <img src="ferdinand_liscano.jpg" alt="Ferdinand Liscano">
+        <p> Ferdinand U Liscano</p>
+    </div>
+    <div class="details" id="details_ferdinand_liscano">
+        <table>
+            <tr>
+                <th>Attribute</th>
+                <th>Details</th>
+            </tr>
+            <tr>
+                <td>Birthday</td>
+                <td>September 11, 2007</td>
+            </tr>
+            <tr>
+                <td>Address</td>
+                <td>1134 Tagumpay ST</td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td>Male</td>
+            </tr>
+            <tr>
+                <td>Parents</td>
+                <td>Rosela U Liscano</td>
+            </tr>
+            <tr>
+                <td>Blood Type</td>
+                <td>[Not provided]</td>
+            </tr>
+            <tr>
+                <td>Favorite Place to go to</td>
+                <td>Intramuros</td>
+            </tr>
+            <tr>
+                <td>Most Person Trusted</td>
+                <td>Xiaome Allera</td>
+            </tr>
+            <tr>
+                <td>Introvert or Extrovert</td>
+                <td>Introvert</td>
+            </tr>
+            <tr>
+                <td>FAMILY HISTORY</td>
+                <td>Complete family</td>
+            </tr>
+            <tr>
+                <td>Record of harassment or bullying</td>
+                <td>None</td>
+            </tr>
+        </table>
+    </div>
+    <div class="carl_cerezo person" id="carl_cerezo">
+        <img src="carl_cerezo.jpg" alt="Carl Cedric Cerezo">
+        <p> Carl Cedric Cerezo</p>
+    </div>
+    <div class="details" id="details_carl_cerezo">
+        <table>
+            <tr>
+                <th>Attribute</th>
+                <th>Details</th>
+            </tr>
+            <tr>
+                <td>Birthday</td>
+                <td>July 12, 2007</td>
+            </tr>
+            <tr>
+                <td>Address</td>
+                <td>308 Balagtas St. Tondo</td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td>Male</td>
+            </tr>
+            <tr>
+                <td>Parents</td>
+                <td>Chiradee Cerezo</td>
+            </tr>
+            <tr>
+                <td>Blood Type</td>
+                <td>[Not provided]</td>
+            </tr>
+            <tr>
+                <td>Favorite Place to go to</td>
+                <td>Basketball Court</td>
+            </tr>
+            <tr>
+                <td>Most Person Trusted</td>
+                <td>My Mom</td>
+            </tr>
+            <tr>
+                <td>Introvert or Extrovert</td>
+                <td>Extrovert</td>
+            </tr>
+            <tr>
+                <td>FAMILY HISTORY</td>
+                <td>Complete family</td>
+            </tr>
+            <tr>
+                <td>Record of harassment or bullying</td>
+                <td>No</td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="leonardo_capote person" id="leonardo_capote">
+        <img src="leonardo_capote.jpg" alt="Leonardo L Capote">
+        <p> Leonardo L Capote</p>
+    </div>
+    <div class="details" id="details_leonardo_capote">
+        <table>
+            <tr>
+                <th>Attribute</th>
+                <th>Details</th>
+            </tr>
+            <tr>
+                <td>Birthday</td>
+                <td>3/8/2007</td>
+            </tr>
+            <tr>
+                <td>Address</td>
+                <td>Binondo Manila gate 54 area c</td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td>[Not provided]</td>
+            </tr>
+            <tr>
+                <td>Parents</td>
+                <td>Lydia Capote, Edgardo Capote</td>
+            </tr>
+            <tr>
+                <td>Blood Type</td>
+                <td>O</td>
+            </tr>
+            <tr>
+                <td>Favorite Place to go to</td>
+                <td>Intramuros</td>
+            </tr>
+            <tr>
+                <td>Most Person Trusted</td>
+                <td>[Not provided]</td>
+            </tr>
+            <tr>
+                <td>Introvert or Extrovert</td>
+                <td>[Not provided]</td>
+            </tr>
+            <tr>
+                <td>FAMILY HISTORY</td>
+                <td>Complete family</td>
+            </tr>
+            <tr>
+                <td>Record of harassment or bullying</td>
+                <td>No</td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="princess_hanna_gimoro person" id="princess_hanna_gimoro">
+        <img src="princess_hanna_gimoro.jpg" alt="Princess Hanna Gimoro">
+        <p> Gimoro Princess Hanna E.</p>
+    </div>
+    <div class="details" id="details_princess_hanna_gimoro">
+        <table>
+            <tr>
+                <th>Attribute</th>
+                <th>Details</th>
+            </tr>
+            <tr>
+                <td>Birthday</td>
+                <td>April 20, 2006</td>
+            </tr>
+            <tr>
+                <td>Address</td>
+                <td>Brgy 12, Delpan Tondo Manila</td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td>Female</td>
+            </tr>
+            <tr>
+                <td>Parents</td>
+                <td>Gimoro Remegios, Gimoro Romeo</td>
+            </tr>
+            <tr>
+                <td>Blood Type</td>
+                <td>[Not provided]</td>
+            </tr>
+            <tr>
+                <td>Favorite Place to go to</td>
+                <td>Intramuros</td>
+            </tr>
+            <tr>
+                <td>Most Person Trusted</td>
+                <td>Grandma</td>
+            </tr>
+            <tr>
+                <td>Introvert or Extrovert</td>
+                <td>Extrovert</td>
+            </tr>
+            <tr>
+                <td>FAMILY HISTORY</td>
+                <td>Single parent</td>
+            </tr>
+            <tr>
+                <td>Record of harassment or bullying</td>
+                <td>None</td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="princess_dela_buena person" id="princess_dela_buena">
+        <img src="princess_dela_buena.jpg" alt="Princess Dela Buena">
+        <p> Princess Dela Buena</p>
+    </div>
+    <div class="details" id="details_princess_dela_buena">
+        <table>
+            <tr>
+                <th>Attribute</th>
+                <th>Details</th>
+            </tr>
+            <tr>
+                <td>Birthday</td>
+                <td>March 19, 2007</td>
+            </tr>
+            <tr>
+                <td>Address</td>
+                <td>Delpan St. Binondo Manila</td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td>Female</td>
+            </tr>
+            <tr>
+                <td>Parents</td>
+                <td>Rocelyn Dela Buena</td>
+            </tr>
+            <tr>
+                <td>Blood Type</td>
+                <td>[Not provided]</td>
+            </tr>
+            <tr>
+                <td>Favorite Place to go to</td>
+                <td>Bicol</td>
+            </tr>
+            <tr>
+                <td>Most Person Trusted</td>
+                <td>My best friend</td>
+            </tr>
+            <tr>
+                <td>Introvert or Extrovert</td>
+                <td>Ambivert</td>
+            </tr>
+            <tr>
+                <td>FAMILY HISTORY</td>
+            </tr>
+            <td>Complete family</td>
+        </tr>
+        <tr>
+            <td>Record of harassment or bullying</td>
+            <td>No</td>
+        </tr>
+    </table>
+    </div>
+    
+    <div class="jouana_nimo person" id="jouana_nimo">
+        <img src="jouana_nimo.jpg" alt="Jouana Rose L. Nimo">
+        <p> Nimo, Jouana Rose L.</p>
+    </div>
+    <div class="details" id="details_jouana_nimo">
+        <table>
+            <tr>
+                <th>Attribute</th>
+                <th>Details</th>
+            </tr>
+            <tr>
+                <td>Birthday</td>
+                <td>May 19, 2007</td>
+            </tr>
+            <tr>
+                <td>Address</td>
+                <td>14th Port Area Manila Brgy 651</td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td>Female</td>
+            </tr>
+            <tr>
+                <td>Parents</td>
+                <td>Me L. Nimo</td>
+            </tr>
+            <tr>
+                <td>Blood Type</td>
+                <td>[Not provided]</td>
+            </tr>
+            <tr>
+                <td>Favorite Place to go to</td>
+                <td>Where there is a nice view and quiet</td>
+            </tr>
+            <tr>
+                <td>Most Person Trusted</td>
+                <td>[Not provided]</td>
+            </tr>
+            <tr>
+                <td>Introvert or Extrovert</td>
+                <td>Introvert</td>
+            </tr>
+            <tr>
+                <td>FAMILY HISTORY</td>
+                <td>Single parent</td>
+            </tr>
+            <tr>
+                <td>Record of harassment or bullying</td>
+                <td>Bullying</td>
+            </tr>
+        </table>
+    </div>
+    
+    <div class="mae_rich_de_asis person" id="mae_rich_de_asis">
+        <img src="mae_rich_de_asis.jpg" alt="Mae Rich S. De Asis">
+        <p> Mae Rich S. De Asis</p>
+    </div>
+    <div class="details" id="details_mae_rich_de_asis">
+        <table>
+            <tr>
+                <th>Attribute</th>
+                <th>Details</th>
+            </tr>
+            <tr>
+                <td>Birthday</td>
+                <td>August 10, 2007</td>
+            </tr>
+            <tr>
+                <td>Address</td>
+                <td>Area D Gate 17 Parola Tondo Manila</td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td>Female</td>
+            </tr>
+            <tr>
+                <td>Parents</td>
+                <td>Vilma De Asis & Richard De Asis</td>
+            </tr>
+            <tr>
+                <td>Blood Type</td>
+                <td>O</td>
+            </tr>
+            <tr>
+                <td>Favorite Place to go to</td>
+                <td>Intramuros</td>
+            </tr>
+            <tr>
+                <td>Most Person Trusted</td>
+                <td>My Family and Friends</td>
+            </tr>
+            <tr>
+                <td>Introvert or Extrovert</td>
+                <td>Introvert</td>
+            </tr>
+            <tr>
+                <td>FAMILY HISTORY</td>
+                <td>Complete Family</td>
+            </tr>
+            <tr>
+                <td>Record of harassment or bullying</td>
+                <td>Yes since I'm grade 10</td>
+            </tr>
+        </table>
+    </div>
+    
+    <div class="maria_cristel_domingo person" id="maria_cristel_domingo">
+        <img src="maria_cristel_domingo.jpg" alt="Maria Cristel H. Domingo">
+        <p> Domingo, Maria Cristel H.</p>
+    </div>
+    <div class="details" id="details_maria_cristel_domingo">
+        <table>
+            <tr>
+                <th>Attribute</th>
+                <th>Details</th>
+            </tr>
+            <tr>
+                <td>Birthday</td>
+                <td>10 October, 2007</td>
+            </tr>
+            <tr>
+                <td>Address</td>
+                <td>235 Zabala St Tondo Manila</td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td>Female</td>
+            </tr>
+            <tr>
+                <td>Parents</td>
+                <td>Maria Lonie Hernane — Crisaldo Domingo (Deceased)</td>
+            </tr>
+            <tr>
+                <td>Blood Type</td>
+                <td>Unknown (hindi ko alam e sorry)</td>
+            </tr>
+            <tr>
+                <td>Favorite Place to go to</td>
+                <td>Intramuros</td>
+            </tr>
+            <tr>
+                <td>Most Person Trusted</td>
+                <td>Diana Ashly Vinus (Best Friend)</td>
+            </tr>
+            <tr>
+                <td>Introvert or Extrovert</td>
+                <td>Introvert</td>
+            </tr>
+            <tr>
+                <td>FAMILY HISTORY</td>
+                <td>Single Parent</td>
+            </tr>
+            <tr>
+                <td>Record of harassment or bullying</td>
+                <td>Nothing</td>
+            </tr>
+        </table>
+    </div>
+    <div class="johnpaul_borras person" id="johnpaul_borras">
+        <img src="johnpaul_borras.jpg" alt="Johnpaul F. Borras">
+        <p> JOHNPAUL F. BORRAS</p>
+    </div>
+    <div class="details" id="details_johnpaul_borras">
+        <table>
+            <tr>
+                <th>Attribute</th>
+                <th>Details</th>
+            </tr>
+            <tr>
+                <td>Birthday</td>
+                <td>December 4, 2004</td>
+            </tr>
+            <tr>
+                <td>Address</td>
+                <td>112 Area H Parola Tondo Manila</td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td>Male</td>
+            </tr>
+            <tr>
+                <td>Parents</td>
+                <td>Annalissa Borras</td>
+            </tr>
+            <tr>
+                <td>Blood Type</td>
+                <td>[Not provided]</td>
+            </tr>
+            <tr>
+                <td>Favorite Place to go to</td>
+                <td>Sa bubong then sa kwarto</td>
+            </tr>
+            <tr>
+                <td>Most Person Trusted</td>
+                <td>None</td>
+            </tr>
+            <tr>
+                <td>Introvert or Extrovert</td>
+                <td>Same depende sa Kasama 😂</td>
+            </tr>
+            <tr>
+                <td>FAMILY HISTORY</td>
+                <td>Complete</td>
+            </tr>
+            <tr>
+                <td>Record of harassment or bullying</td>
+                <td>Nope, Ako yong nang bubully</td>
+            </tr>
+        </table>
+    </div>
+    <div class="justine_cagadas person" id="justine_cagadas">
+        <img src="cagas.jpg" alt="Justine Cagadas">
+        <p> Justine C. Cagadas</p>
+    </div>
+    <div class="details" id="details_justine_cagadas">
+        <table>
+            <tr>
+                <th>Attribute</th>
+                <th>Details</th>
+            </tr>
+            <tr>
+                <td>Birthday</td>
+                <td>June 17, 2024</td>
+            </tr>
+            <tr>
+                <td>Address</td>
+                <td>Baseco Port Area Manila</td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td>Male</td>
+            </tr>
+            <tr>
+                <td>Parents</td>
+                <td>Dionisio Cagadas, Myra Cagadas</td>
+            </tr>
+            <tr>
+                <td>Blood Type</td>
+                <td>O</td>
+            </tr>
+            <tr>
+                <td>Favorite Place to go to</td>
+                <td>Church</td>
+            </tr>
+            <tr>
+                <td>Most Person Trusted</td>
+                <td>Parents</td>
+            </tr>
+            <tr>
+                <td>Introvert or Extrovert</td>
+                <td>Extrovert</td>
+            </tr>
+            <tr>
+                <td>FAMILY HISTORY</td>
+                <td>Complete</td>
+            </tr>
+            <tr>
+                <td>Record of harassment or bullying</td>
+                <td>Yes, when I was on G1</td>
+            </tr>
+        </table>
+    </div>
+    <div class="diana_ashly_vinus person">
+        <p> Diana Ashly M. Vinus</p>
+    </div>
+    <div class="details" id="details_diana_ashly_vinus">
+        <table>
+            <tr>
+                <th>Attribute</th>
+                <th>Details</th>
+            </tr>
+            <tr>
+                <td>Birthday</td>
+                <td>December 16, 2006</td>
+            </tr>
+            <tr>
+                <td>Address</td>
+                <td>154 Lavezares St., Bndo. Mnla.</td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td>Female</td>
+            </tr>
+            <tr>
+                <td>Parents</td>
+                <td>Vicky Vinus & Joel Vinus</td>
+            </tr>
+            <tr>
+                <td>Blood Type</td>
+                <td>Unknown</td>
+            </tr>
+            <tr>
+                <td>Favorite Place to go to</td>
+                <td>Beach</td>
+            </tr>
+            <tr>
+                <td>Most Person Trusted</td>
+                <td>Family and my best friend Maria Cristel Domingo</td>
+            </tr>
+            <tr>
+                <td>Introvert or Extrovert</td>
+                <td>Introvert</td>
+            </tr>
+            <tr>
+                <td>FAMILY HISTORY</td>
+                <td>Complete Family</td>
+            </tr>
+            <tr>
+                <td>Record of harassment or bullying</td>
+                <td>None</td>
+            </tr>
+            
+        </table>
+    </div>
+    
+    <div class="trisha_buzon person">
+        <p> Trisha Buzon</p>
+    </div>
+    <div class="details" id="details_trisha_buzon">
+        <table>
+            <tr>
+                <th>Attribute</th>
+                <th>Details</th>
+            </tr>
+            <tr>
+                <td>Birthday</td>
+                <td>January 30, 2007</td>
+            </tr>
+            <tr>
+                <td>Address</td>
+                <td>505 Madrid St., Binondo Manila</td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td>Female</td>
+            </tr>
+            <tr>
+                <td>Parents</td>
+                <td>Thessa Delos Santos</td>
+            </tr>
+            <tr>
+                <td>Blood Type</td>
+                <td>O</td>
+            </tr>
+            <tr>
+                <td>Favorite Place to go to</td>
+                <td>Beaches</td>
+            </tr>
+            <tr>
+                <td>Most Person Trusted</td>
+                <td>Mother</td>
+            </tr>
+            <tr>
+                <td>Introvert or Extrovert</td>
+                <td>Ambivert</td>
+            </tr>
+            <tr>
+                <td>FAMILY HISTORY</td>
+                <td>Single Parent</td>
+            </tr>
+            <tr>
+                <td>Record of harassment or bullying</td>
+                <td>Yes, Twice when I was in junior high</td>
+            </tr>
+            
+        </table>
+    </div>
+    
+    
+               
+
+
+    <script>
+        const personElements = document.querySelectorAll('.person');
+        const detailsElements = document.querySelectorAll('.details');
+
+        personElements.forEach((person, index) => {
+            person.addEventListener('click', () => {
+                detailsElements.forEach((details, i) => {
+                    if (i === index) {
+                        details.style.display = details.style.display === 'none' ? 'block' : 'none';
+                    } else {
+                        details.style.display = 'none';
+                    }
+                });
+            });
+        });
+    </script>
+
+</body>
+
+</html>
